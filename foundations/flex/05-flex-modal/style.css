@@ -20,6 +20,27 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  column-gap: 15px;
+  padding: 15px;
+}
+
+.column-two {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.row-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .icon {
